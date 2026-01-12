@@ -45,7 +45,7 @@ public class UserSeeder {
 
             // Create admin users in Administration department
             User admin = createOrUpdateUser(
-                    "ndayambaje.virgile@techsroutine.com",
+                    "ipacy02@gmail.com",
                     "System Administrator",
                     "admin123",
                     UserRole.ADMIN,
@@ -55,8 +55,8 @@ public class UserSeeder {
             );
 
             User virgileAdmin = createOrUpdateUser(
-                    "ndayambajevg16bussiness@gmail.com",
-                    "Virgile Ndayambaje",
+                    "manpaci45@gmail.com",
+                    "Manirampa Pacifique",
                     "password123",
                     UserRole.ADMIN,
                     null,
