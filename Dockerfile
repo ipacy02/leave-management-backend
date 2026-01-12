@@ -10,8 +10,8 @@
  # Copy source code
  COPY src src
 
- # Build the application
- RUN mvn package -DskipTests
+ # Build the application of leave management
+ RUN mvn package  -DskipTests
 
  FROM eclipse-temurin:21-jre-alpine
  VOLUME /tmp
